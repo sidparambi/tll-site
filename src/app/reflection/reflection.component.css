@@ -1,0 +1,15 @@
+p{
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+#p1 {     
+    text-decoration: underline;     
+  
+}
+
+#p2{
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right: 400px;
+}

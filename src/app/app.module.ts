@@ -6,10 +6,14 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatSliderModule } from '@angular/material/slider';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { ReflectionComponent } from './reflection/reflection.component';
+import { IntroComponent } from './intro/intro.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ReflectionComponent,
+    IntroComponent
   ],
   imports: [
     BrowserModule,
