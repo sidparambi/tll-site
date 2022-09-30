@@ -13,3 +13,9 @@ p{
     text-justify: inter-word;
     margin-right: 400px;
 }
+
+button{
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}

@@ -6,6 +6,8 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatSliderModule } from '@angular/material/slider';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatButtonModule} from '@angular/material/button';
+
 import { ReflectionComponent } from './reflection/reflection.component';
 import { IntroComponent } from './intro/intro.component';
 
@@ -19,7 +21,8 @@ import { IntroComponent } from './intro/intro.component';
     BrowserModule,
     NoopAnimationsModule,
     MatSliderModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

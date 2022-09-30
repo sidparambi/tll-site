@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./reflection.component.css']
 })
 export class ReflectionComponent implements OnInit {
-
+  isShown: boolean = false ;
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  toggleShow() {
+
+    this.isShown = ! this.isShown;
+    
+    }
 
 }
